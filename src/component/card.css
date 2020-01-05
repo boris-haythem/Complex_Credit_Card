@@ -1,0 +1,55 @@
+
+.displayCard{
+   display: flex;
+   justify-content: space-between;
+   
+}
+.bgCard{
+  
+   display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    margin: 100px 70px;
+}
+.styleInput{
+   width: 400px;
+   padding: 20px;
+   margin: 10px;
+}
+.idCard{
+   background-image: url("./credit-card.jpg");
+   width: 600px;
+   height: 500px;
+   
+}
+.titleCard{
+   margin-top: 100px;
+   padding-left: 200px;
+}
+.user{
+   display: flex;
+    flex-direction: column;
+}
+
+.idCardNumber{
+   position: absolute;
+   left: 100px;
+   top: 200px;
+    
+}
+.userCard{
+   position: absolute;
+   display: flex;
+   top: 335px;
+   padding-left: 100px;
+   padding-right: 72px;
+   
+}
+.userCardValidation{
+   position: absolute;
+   left: 430px;
+}
+.idCard img{
+   position: absolute;
+   left: 400px;
+   }
